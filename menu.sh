@@ -25,7 +25,7 @@ add_proxy_port() {
         return
     fi
 
-    local command="/opt/rustyproxyssl/proxy --proxy-port $port"
+    local command="/opt/rustyproxyssl/proxyssl --proxy-port $port"
     local service_file_path="/etc/systemd/system/proxyssl${port}.service"
     local service_file_content="[Unit]
 Description=RustyProxySSL${port}
