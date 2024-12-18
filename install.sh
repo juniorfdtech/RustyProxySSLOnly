@@ -99,7 +99,7 @@ else
 
     cd /root/RustyProxySSLOnly/RustyProxy
     cargo build --release --jobs $(nproc) > /dev/null 2>&1 || error_exit "Falha ao compilar rustyproxy"
-    mv ./target/release/RustyProxyssl /opt/rustyproxyssl/proxy
+    mv ./target/release/RustyProxySSL /opt/rustyproxyssl/proxy
     increment_step
 
     # ---->>>> Configuração de permissões
