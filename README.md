@@ -1,16 +1,13 @@
-# RustyProxyOnly
+# RustyProxySSLOnly
 
-O RustyProxy é um script simples e otimizado configurável para servidores de proxy que suporta múltiplos protocolos, conhecido como **MultiProtocolos**. Ele foi projetado para fornecer uma variedade de opções para diferentes tipos de conexão e cenários de uso. Aqui estão os protocolos incorporados:
-- **Websocket**
-- **Security**
-- **ProxySocks**
+O RustyProxySSL foi desenvolvido para atuar junto ao RustyProxy, ele faz o proxy para a porta 80
 
 
 ## Comando de Instalação
 
-Para instalar o RustyProxyOnly, execute o seguinte comando no terminal:
+Para instalar o RustyProxySSLOnly, execute o seguinte comando no terminal:
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/RustyProxyOnly/refs/heads/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/RustyProxySSLOnly/refs/heads/main/install.sh)
 ```
 
