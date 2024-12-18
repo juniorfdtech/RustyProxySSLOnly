@@ -77,7 +77,7 @@ show_menu() {
     clear
     echo "================= @RustyManager ================"
     echo "------------------------------------------------"
-    printf "|               %-28s|\n" "RUSTY PROXY SSL"
+    printf "|                  %-28s|\n" "RUSTY PROXY SSL"
     echo "------------------------------------------------"
     
     # Verifica se há portas ativas
