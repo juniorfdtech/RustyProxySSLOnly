@@ -8,6 +8,6 @@ O RustyProxySSL foi desenvolvido para atuar junto ao RustyProxy, ele faz o proxy
 Para instalar o RustyProxySSLOnly, execute o seguinte comando no terminal:
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/UlekBR/RustyProxySSLOnly/refs/heads/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/juniorfdtech/RustyProxySSLOnly/refs/heads/main/install.sh)
 ```
 
